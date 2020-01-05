@@ -40,7 +40,7 @@ module.exports = function (grunt) {
         colors: true,
         logLevel: 'WARN',
         autoWatch: false,
-        browsers: ['PhantomJS'],
+        browsers: ['ChromeHeadless'],
         singleRun: true
       },
       min: {

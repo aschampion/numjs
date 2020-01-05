@@ -3,7 +3,7 @@ var DTYPES = require('./dtypes');
 var _ = require('lodash');
 
 function isNumber (value) {
-  return typeof value === 'number';
+  return (typeof value === 'number' || typeof value === 'bigint');
 }
 function isString (value) {
   return typeof value === 'string';

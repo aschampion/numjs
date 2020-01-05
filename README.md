@@ -60,7 +60,7 @@ __Note__: Default data container is Javascript `Array` object. If needed, you ca
 array([ 1, 2, 3], dtype=uint8)
 ```
 
-__Note__: possible types are int8, uint8, int16, uint16, int32, uint32, float32, float64 and array (the default)
+__Note__: possible types are int8, uint8, int16, uint16, int32, uint32, float32, float64, bigint64, biguint64 and array (the default)
 
 To create arrays with a given shape, you can use `zeros`, `ones` or `random` functions:
 
