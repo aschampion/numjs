@@ -9,7 +9,7 @@ module.exports = {
   uint32: Uint32Array,
   float32: Float32Array,
   float64: Float64Array,
-  bigint64: BigInt64Array,
-  biguint64: BigUint64Array,
+  bigint64: (typeof BigInt64Array !== 'undefined') ? BigInt64Array : undefined,
+  biguint64: (typeof BigUint64Array !== 'undefined') ? BigUint64Array : undefined,
   array: Array
 };
